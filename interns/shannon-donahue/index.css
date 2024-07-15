@@ -1,4 +1,4 @@
-
+/* sets up overwrapping body style */
 body{
   margin: 0;
   padding: 0;
@@ -7,6 +7,8 @@ body{
   background-color: #6e5a4d;
 }
 
+
+/* Formats the various text elements on the page */
 h1{
   text-align: center;
   color: #fff4ec;
@@ -16,6 +18,23 @@ h1{
   margin-bottom: 0
 }
 
+h3{
+  text-align: center;
+  color: #fff4ec;
+  font-family: 'Courier New';
+  font-size: 25px;
+  padding-top: 0px;
+}
+
+p{
+  text-align: center;
+  color: #fff4ec;
+  font-family: 'Courier New';
+  margin: 10px;
+  padding-bottom: 20px;
+}
+
+/* Formats the social media link icons */
 .socials {
   margin: auto;
   width: 10%;
@@ -26,7 +45,9 @@ h1{
   margin-left: 20px;
   margin-right: 10px;
 }
-  
+
+
+  /* Formats the main self photo to be on the left one third of the page */
 #photo_container{
   flex: 1; /* Takes 1/3 of available space */
   max-width: 24%;
@@ -40,6 +61,7 @@ h1{
   object-fit: cover;
 }
 
+/* Formats to div containg all the text to be on the right side  */
 #content_container {
   flex: 2; /* Takes 2/3 of available space */
   padding: 20px;
@@ -47,6 +69,7 @@ h1{
 }
 
 
+/* How the corner borders were built for the professional and fun fact sections */
 .info {
   position: relative;
   margin: 20px;
@@ -101,23 +124,7 @@ h1{
   border-top: none;
 }
 
-
-h3{
-  text-align: center;
-  color: #fff4ec;
-  font-family: 'Courier New';
-  font-size: 25px;
-  padding-top: 0px;
-}
-
-p{
-  text-align: center;
-  color: #fff4ec;
-  font-family: 'Courier New';
-  margin: 10px;
-  padding-bottom: 20px;
-}
-
+/* Formatting for the slide show container and images */
 .slideshow-container {
   max-width: 800px;
   position: relative;

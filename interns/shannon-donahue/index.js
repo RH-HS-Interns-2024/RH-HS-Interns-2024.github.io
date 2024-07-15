@@ -1,3 +1,4 @@
+// called on load shows the first photo in the slide show
 let slideIndex = 1;
 showSlides(slideIndex);
 
@@ -6,11 +7,7 @@ function plusSlides(n) {
   showSlides(slideIndex += n);
 }
 
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
+// Function that changes the slide
 function showSlides(n) {
   let i;
   let slides = document.getElementsByClassName("mySlides");
